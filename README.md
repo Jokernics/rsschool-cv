@@ -1,1 +1,1 @@
-# rsschool-cv
+https://github.com/Jokernics/rsschool-cv/commits/gh-pages
