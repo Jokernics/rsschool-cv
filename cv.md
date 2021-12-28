@@ -6,6 +6,7 @@
 * __Phone:__ +7 995 890 53 34
 * __E-mail:__ spirin.egor13@gmail.com
 * __GitHub:__ [Jokernix](https://github.com/Jokernics "GitHub Profile") 
+
 ## About myself:
 
 I'm a beginner developer, i was learning the basics of the Ruby programming language, but changed my mind about conquering the backend and switched to the frontend.
