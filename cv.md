@@ -41,6 +41,6 @@ end
 
 ## Languages:
 * English: B2
-* Russain: Native
+* Russian: Native
 
 
