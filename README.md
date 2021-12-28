@@ -1,1 +1,1 @@
-https://jokernics.github.io/rsschool-cv/cv
+https://Jokernics.github.io/rsschool-cv/
