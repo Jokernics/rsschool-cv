@@ -4,9 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-    
+<header class = "header">
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses </a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="main" class="main-container">
+        <section class="section" id="profile">
+            <h1 class="section-title">Spirin Egor</h1>
+            <img src="./assets/img/photo.jpeg" alt="my photo" width="100px" height="100px">
+            <h1>rsschool-cv</h1>
+             
+            <h2>Junior Frontend Developer</h2>
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contact information:</h2>
+            <ul>
+                <li>Location: Russia, Saint-Peterburg</li>
+                <li>Phone: +7 995 890 53 34</li>
+                <li>E-mail: spirin.egor13@gmail.com</li>
+                <li>GitHub: <a href="https://github.com/Jokernics" title="GitHub Profile">Jokernix</a></li>
+            </ul>
+        </section>
+        <section class="section" id="summary">
+            <h2 class="section-title">About myself</h2>
+            <p>I'm a beginner developer, i was learning the basics of the Ruby programming language, but changed my mind about conquering the backend and switched to the frontend.</p>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>HTML5, CSS3</li>
+                <li>Ruby </li>
+                <li>Git</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2 class="section-title">Code example:</h2>
+            <p>It's a piece of code from a game called "Humans vs Robots":</p>
+            <code>
+                <pre>
+                    def attack(arr)
+                        sleeper
+                        damage = rand(51..100)
+                        i = rand(0..9)
+                        if (arr[i] - damage) >= 1
+                            arr[i] -= damage
+                            puts "Робот #{i+1} получил ранение, осталось #{arr[i]} HP"
+                        elsif ((arr[i] - damage) = 0) && arr[i] > 0
+                            puts "Робот #{i+1} уничтожен"
+                            arr[i] = 0
+                        elsif arr[i] == 0
+                            puts "Промазали"
+                        end
+            
+                        sleeper
+                    end
+                </pre>
+            </code>
+        </section>
+        <section class="section" id="courses">
+            <h2 class="section-title"></h2>
+        </section>
+
+        <section class="section" id="projects">
+            <h2 class="section-title"></h2>
+
+        </section>
+
+        <section class="section" id="education">
+            <h2 class="section-title"></h2>
+
+        </section>
+        <section class="section" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+                <li>Russian: Native</li>
+                <li>English: B2</li>
+            </ul>
+        </section>
+</main>
+    <footer class="footer">
+        <p>Some content</p>
+    </footer>
 </body>
+
 </html>
