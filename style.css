@@ -1,0 +1,148 @@
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+.nav-list { 
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 75px;
+    font-size: 25px;
+    color: orange;
+    transition: color 0.5s;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: rgb(10, 65, 82);
+    transition: color 0.3s;
+    font-weight: bolder;
+}
+
+.profile {
+    display: block  ;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.photo {
+    border-radius: 32px;
+    width: 30%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+    margin: 5px 5px;
+}
+
+.contacts {
+    line-height: 35px;
+    padding: 30px;
+}
+
+.section p {
+   margin: 0;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    color: #829985;
+  }
+
+body {
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font: normal 18px san-serif 'Roboto';
+    line-height: 1.5;
+    color: #f1e7e7;
+    background-color: rgb(19, 13, 13);
+  
+}
+
+main {
+    margin: auto;
+    max-width: 750px;
+}
+
+
+
+html {
+    scroll-behavior: smooth; 
+}
+
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section {
+    width: 40%;
+    border-radius: 15px;
+    border: 2px solid rgb(70, 56, 56);
+    margin: 15px 15px;
+    padding-left: 10px;
+}
+
+.projects {
+    list-style-type: none;
+    margin: 0;
+    padding: 9px;
+    line-height: 45px;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.project-item {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.5);
+    transition: color 1s;
+}
+
+.project-item:hover {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    transition: color 0.5s;
+}
+
+code {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--text-color);
+    background-color: white;
+    width: 750px;
+    height: 40px;
+    border-radius: 15px;
+}
