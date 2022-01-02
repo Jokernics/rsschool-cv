@@ -1,3 +1,4 @@
+
 @media (max-width: 768px) {
     .section {
       width: 100%;
@@ -10,7 +11,8 @@
     list-style: none;
     align-items: center;
     padding: 0;
-    
+    /* border: 2px solid rgb(70, 56, 56);;
+    border-radius: 25px; */
 }
 
 .nav-link {
@@ -39,7 +41,8 @@
     border-radius: 32px;
     width: 30%;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
-    margin: 5px 5px;
+    margin: 10px 5px;
+    padding: 10px;
 }
 
 .contacts {
@@ -73,11 +76,12 @@ body {
     line-height: 1.5;
     color: #f1e7e7;
     background-color: rgb(19, 13, 13);
-  
+    overflow: auto;
 }
 
 main {
     margin: auto;
+    padding-left: 60px;
     max-width: 750px;
 }
 
